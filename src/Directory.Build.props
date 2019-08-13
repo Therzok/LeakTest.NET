@@ -1,0 +1,7 @@
+<Project>
+  <PropertyGroup>
+    <VersionNUnit>3.12.0</VersionNUnit>
+    <VersionNewtonsoftJson>12.0.2</VersionNewtonsoftJson>
+    <VersionQuickGraph>3.6.61119.7</VersionQuickGraph>
+  </PropertyGroup>
+</Project>

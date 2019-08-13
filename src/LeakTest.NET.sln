@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeakTest.NET", "LeakTest.NET\LeakTest.NET.csproj", "{3FE65518-BB7E-4773-A0CC-BFD712536D31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeakTest.NET.Mono", "LeakTest.NET.Mono\LeakTest.NET.Mono.csproj", "{3D002621-3364-4D90-862B-38EC6DED4D41}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3FE65518-BB7E-4773-A0CC-BFD712536D31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FE65518-BB7E-4773-A0CC-BFD712536D31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FE65518-BB7E-4773-A0CC-BFD712536D31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FE65518-BB7E-4773-A0CC-BFD712536D31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D002621-3364-4D90-862B-38EC6DED4D41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D002621-3364-4D90-862B-38EC6DED4D41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D002621-3364-4D90-862B-38EC6DED4D41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D002621-3364-4D90-862B-38EC6DED4D41}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

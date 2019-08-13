@@ -1,0 +1,14 @@
+* text=auto encoding=UTF-8
+*.sh text eol=lf
+
+*.cs     diff=csharp text
+
+#*.sln       merge=binary
+#*.csproj    merge=binary
+#*.vbproj    merge=binary
+#*.fsproj    merge=binary
+
+#*.jpg   binary
+#*.png   binary
+#*.gif   binary
+

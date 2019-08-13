@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	<!-- Figure out pkg for QuickGraph netstandard
+    <TargetFramework>netstandard2.0</TargetFramework>
+	-->
+	<TargetFramework>net472</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NUnit" Version="$(VersionNUnit)" />
+    <PackageReference Include="Newtonsoft.Json" Version="$(VersionNewtonsoftJson)" />
+    <PackageReference Include="QuickGraph" Version="$(VersionQuickGraph)" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="GCModel\" />
+    <Folder Include="ObjectGraph\" />
+    <Folder Include="Util\" />
+    <Folder Include="Reporting\" />
+  </ItemGroup>
+</Project>

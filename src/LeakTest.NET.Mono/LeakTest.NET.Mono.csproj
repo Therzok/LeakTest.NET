@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="NUnit" Version="$(VersionNUnit)" />
+    <PackageReference Include="QuickGraph" Version="$(VersionQuickGraph)" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LeakTest.NET\LeakTest.NET.csproj" />
+  </ItemGroup>
+</Project>
